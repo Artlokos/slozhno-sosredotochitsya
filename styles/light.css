@@ -3,7 +3,13 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
+:root.theme-light{
+  --main-font: 'IBM Plex mono';
+  --accent-font: 'IBM Plex mono';
+  --bg-color:#f3ecec;
+  --text-color:#312a4e;
+  --accent-color:rgba(53, 52, 48, 1);
+}
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
