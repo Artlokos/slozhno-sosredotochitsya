@@ -7,7 +7,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	outline:1px solid #000;
+	outline:1px solid #fff;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
@@ -121,5 +121,23 @@ line-height: 120px;
     font-family: var(--main-font);
     margin: 0px 21px 18px 0;
     font-size: 18px;
+	
+}
+
+.content-section {
+	display: grid;
+	grid-template-columns: 315px 1fr ;
+	grid-template-rows: repeat(2,auto);
+}
+
+.section-point {
+
+}
+
+.title-text {
+
+}
+
+.content-text {
 	
 }
