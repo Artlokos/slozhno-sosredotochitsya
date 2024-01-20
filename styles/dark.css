@@ -3,16 +3,30 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme-dark{
-  --main-font: 'IBM Plex mono';
-  --accent-font: 'IBM Plex mono';
-  --bg-color:rgba(0, 0, 40, 1);
-  --text-color:#312a4e;
-  --accent-color:rgba(255, 0, 112, 1);
-}
+
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --main-font: 'IBM Plex mono';
+  --accent-font: 'IBM Plex mono';
+  --bg-color:rgba(0, 0, 40, 1);
+  --text-color:#312a4e;
+  --accent-color:rgba(255, 0, 112, 1);
+  --title-color:rgba(219, 0, 255, 1);
+  --subtitle__background-color:rgba(255,0,112,1);
+  --button-text-color:#ff0070;
+  --button-text-color-hover:#ff007066;
+  --block-color:#ff0070;
+  --subtitle-decore:#000028;
+  --dec-color:#ff0070;
+  --shadow-color:#ff0070;
+  
+  background-image: url(../images/cover-image-dark.png);
+}
+
+.theme_dark .rec {
+  display: flex;
 }
