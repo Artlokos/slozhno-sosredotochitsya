@@ -20,11 +20,10 @@
   --button-text-color: #353430;
   --button-text-color-hover: #32312d66;
   --block-color: #353430;
-  --subtitle-decore: #353430;
   --dec-color: #353430;
   --shadow-color: #ff0070;
 
-  background-color: var(--background-color);
+  background-color: var(--bg-color);
   background-image: url(../images/cover-image-light.png);
 }
 
@@ -34,8 +33,6 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-font: "IBM Plex mono";
-    --accent-font: "IBM Plex mono";
     --bg-color: rgba(0, 0, 40, 1);
     --text-color: #312a4e;
     --accent-color: rgba(255, 0, 112, 1);
@@ -44,13 +41,12 @@
     --button-text-color: #353430;
     --button-text-color-hover: #32312d66;
     --block-color: #353430;
-    --subtitle-decore: #353430;
     --dec-color: #353430;
     --shadow-color: #ff0070;
   }
 
   .page {
-    background-color: var(--background-color);
+    background-color: var(--bg-color);
     background-image: url(../images/cover-image-light.png);
   }
 

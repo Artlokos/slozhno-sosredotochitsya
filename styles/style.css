@@ -98,7 +98,7 @@
 
 .subtitle__decoration {
   height: max-content;
-  color: var(--subtitle-decore);
+  color: var(--bg-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
