@@ -16,7 +16,7 @@
   --text-color: #312a4e;
   --accent-color: rgba(255, 0, 112, 1);
   --title-color: rgba(255, 194, 230, 1);
-  --subtitle__background-color:  rgba(255, 194, 230, 1);
+  --subtitle__background-color:  rgba(255, 141, 203, 1);
   --button-text-color: #353430;
   --button-text-color-hover: #32312d66;
   --block-color: #353430;
@@ -35,11 +35,11 @@
   :root {
     --main-font: "IBM Plex mono";
     --accent-font: "IBM Plex mono";
-    --bg-color:rgba(255, 241, 247, 1);
+    --bg-color: rgba(0, 0, 40, 1);
     --text-color: #312a4e;
     --accent-color: rgba(255, 0, 112, 1);
     --title-color: rgba(255, 194, 230, 1);
-    --subtitle__background-color:  rgba(255, 194, 230, 1);
+    --subtitle__background-color:  rgba(255, 141, 203, 1);
     --button-text-color: #353430;
     --button-text-color-hover: #32312d66;
     --block-color: #353430;
