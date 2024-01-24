@@ -96,9 +96,13 @@
   text-shadow: 4px 4px 0px var(--shadow-color);
 }
 
+.subtitle {
+	margin-top: 20px;
+}
+
 .subtitle__decoration {
   height: max-content;
-  color: var(--text-color);
+  color: var(--bg-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
