@@ -232,7 +232,7 @@
   }
 
   .landscape .section__point {
-    max-width: 260px;
+    max-width: 235px;
   }
 
   .block__subtitle {
@@ -340,6 +340,11 @@
   .landscape .title {
     min-width: 315px;
   }
+
+  .landscape .section__point {
+    max-width: 260px;
+  }
+
 
   .landscape .block__articles {
     display: flex;
