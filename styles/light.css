@@ -61,3 +61,9 @@
     display: none;
   }
 }
+
+@media (width <= 1024px) {
+  :root {
+    --shadow-color: rgba(255, 141, 203, 1);
+  }
+}
