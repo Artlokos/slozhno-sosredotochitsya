@@ -302,6 +302,10 @@
     margin: 0px;
     text-shadow: 2px 2px 0px var(--shadow-color);
   }
+
+  .subtitle {
+    margin-top: 0px;
+  }
 }
 
 @media (width >= 1024px) {
@@ -373,5 +377,9 @@
 
   .block__footer__text {
     text-shadow: 2px 2px 0px var(--shadow-color);
+  }
+
+  .subtitle {
+    margin-top: 0px;
   }
 }

@@ -22,7 +22,7 @@
   --button-text-color-hover: #32312d66;
   --block-color: #353430;
   --dec-color: #353430;
-  --shadow-color: rgba(255, 141, 203, 1);
+  --shadow-color: rgba(255, 0, 112, 1);
 
   background-color: var(--bg-color);
   background-image: url(../images/cover-image-light.png);
@@ -46,7 +46,7 @@
     --button-text-color-hover: #32312d66;
     --block-color: #353430;
     --dec-color: #353430;
-    --shadow-color: rgba(255, 141, 203, 1);
+    --shadow-color: rgba(255, 0, 112, 1);
   
     background-color: var(--bg-color);
     background-image: url(../images/cover-image-light.png);
