@@ -27,3 +27,31 @@
 .theme_dark .rec {
   display: flex;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: rgba(0, 0, 40, 1);
+    --text-color: rgba(241, 178, 206,1);
+    --accent-color: rgba(255, 0, 112, 1);
+    --title-color: rgba(219, 0, 255, 1);
+    --subtitle__background-color: rgba(255, 0, 112, 1);
+    --subtitle__text-color:rgba(0, 0, 40, 1);
+    --button-text-color: rgba(255, 0, 112, 1);
+    --button-text-color-hover: #ff007066;
+    --block-color: rgba(255, 0, 112, 1);
+    --dec-color: rgba(255, 0, 112, 1);
+    --shadow-color: rgba(255, 0, 112, 1);
+
+  background-image: url(../images/cover-image-dark.png);
+  }
+
+  .page {
+    background-color: var(--bg-color);
+    background-image: url(../images/cover-image-light.png);
+  }
+
+ .rec {
+    display: flex;
+  }
+  
+}
