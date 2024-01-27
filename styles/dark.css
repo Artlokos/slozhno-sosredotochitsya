@@ -47,7 +47,7 @@
 
   .page {
     background-color: var(--bg-color);
-    background-image: url(../images/cover-image-light.png);
+    background-image: url(../images/cover-image-dark.png);
   }
 
  .rec {
