@@ -2,7 +2,7 @@
 
 .page {
   background-image: url(../images/cover-image-light.png);
-  background-color: var(--bg-col or);
+  background-color: var(--bg-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
